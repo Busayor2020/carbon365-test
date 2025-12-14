@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40" role="img"
+    aria-label="Carbon365 logo">
+    <title>Carbon365</title>
+    <rect width="160" height="40" fill="none" />
+    <g fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-weight="700">
+        <text x="44" y="26" font-size="18">Carbon365</text>
+    </g>
+    <g fill="#ffffff" transform="translate(6,8)">
+        <path d="M14 0 L22 0 C24 0 26 2 26 4 L26 10 L0 10 L0 4 C0 2 2 0 4 0 Z M4 10 L6 14 L10 14 L12 10 Z" />
+    </g>
+</svg>

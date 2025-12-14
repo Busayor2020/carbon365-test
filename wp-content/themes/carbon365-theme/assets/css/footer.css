@@ -1,0 +1,85 @@
+/* Footer Styles - Carbon365 Theme */
+.site-footer {
+    background-color: #082cc7;
+    color: #ffffff;
+    padding: 36px 16px 24px;
+}
+.site-footer a { color: #ffffff; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+
+.footer-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    align-items: start;
+}
+
+.footer-col { padding: 0 8px; }
+.footer-left .footer-logo { display: inline-block; margin-bottom: 12px; }
+.footer-desc {
+    margin: 0;
+    color: #ffffff;
+    opacity: 0.95;
+    line-height: 1.5;
+    max-width: 360px;
+}
+
+.footer-heading {
+    color: #ffffff;
+    margin: 0 0 12px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-links a { color: #ffffff; opacity: 0.95; }
+.footer-links a:focus { outline: 2px dashed #fef555; outline-offset: 3px; }
+
+.contact-info { font-style: normal; margin-bottom: 12px; line-height: 1.5; }
+.contact-info a { color: #ffffff; text-decoration: none; }
+
+.subscribe-form .subscribe-row { display: flex; gap: 8px; align-items: center; }
+.subscribe-form input[type="email"]{
+    flex: 1 1 auto;
+    padding: 10px 12px;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 4px;
+    background: transparent;
+    color: #ffffff;
+}
+.subscribe-form input::placeholder { color: rgba(255,255,255,0.7); }
+.subscribe-form input:focus { outline: 2px solid rgba(254,245,85,0.16); outline-offset: 2px; }
+
+.btn-accent{
+    background: #fef555;
+    color: #082cc7;
+    border: 0;
+    padding: 10px 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-accent:focus { outline: 3px solid rgba(254,245,85,0.35); outline-offset: 2px; }
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding-top: 18px;
+    color: rgba(255,255,255,0.85);
+    font-size: 13px;
+}
+
+@media (min-width: 768px) {
+    .footer-grid { grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
+    .footer-left .footer-logo svg { width: 160px; height: auto; }
+}
+
+.visually-hidden { position: absolute !important; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); white-space: nowrap; }
+
+@media (max-width: 420px) {
+    .subscribe-form .subscribe-row { flex-direction: column; align-items: stretch; }
+    .btn-accent { width: 100%; }
+}
