@@ -12,7 +12,7 @@ get_header(); ?>
         <div class="hc-track" role="list">
             <article class="hc-slide" role="listitem" aria-roledescription="slide" aria-label="Slide 1 of 2"
                 data-index="0"
-                style="background-image:url('http://carbon365busayo.com/wp-content/uploads/2025/12/hero_img_blue.jpg')">
+                style="background-image:url('https://carbon365.laluxuryhair.com/wp-content/uploads/2025/12/hero_img_blue.jpg')">
                 <div class="hc-overlay"></div>
                 <div class="hc-content">
                     <h1>Reliable Auto Repair & Maintenance</h1>

@@ -262,6 +262,9 @@ function cc_testimonials_shortcode($atts) {
                 <?php echo $thumb; ?>
                 <div class="cc-testimonial-body">
                     <h3 class="cc-testimonial-title"><?php the_title(); ?></h3>
+                    <div class="cc-testimonial-rating" style="color: #e0a717ff; font-size: 24px; margin-bottom: 8px;">
+                        <?php echo esc_html($stars); ?>
+                    </div>
                     <div class="cc-testimonial-role">
                         <?php echo esc_html(get_post_meta(get_the_ID(), '_cc_testimonial_role', true)); ?></div>
                     <div class="cc-testimonial-content"><?php the_content(); ?></div>
